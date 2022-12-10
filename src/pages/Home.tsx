@@ -1,4 +1,4 @@
-import bg from '@/assets/Home/background.png';
+import bg from '@/assets/Home/background2.png';
 import Background from '@/components/Global/Background';
 import Popup from '@/components/Global/Popup';
 import Extras from '@/components/Home/Extras';

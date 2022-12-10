@@ -1,4 +1,5 @@
 import App from "@/App";
+import Buku from "@/pages/Buku";
 import Home from "@/pages/Home";
 import {
   createMemoryRouter,
@@ -13,6 +14,10 @@ export const router = createHashRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/buku',
+        element: <Buku />
       }
     ],
   },

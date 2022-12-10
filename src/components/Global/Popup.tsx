@@ -10,7 +10,7 @@ export type TPopupProps = {
 export default function Popup({ close = function(){}, withClose=true, title='', children=(<></>) }: TPopupProps){
   return (
     <div style={{
-      background: '#563232',
+      background: '#683AC2',
       border: '4px solid white',
       borderRadius: '8px',
       padding: '1rem',
