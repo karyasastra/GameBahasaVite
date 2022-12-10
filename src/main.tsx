@@ -8,17 +8,17 @@ function Audio(){
 
   document.addEventListener('click', function(){
     /// @ts-ignore
-    // document.getElementById(id).play();
+    document.getElementById(id).play();
   });
 
   return (
-    <audio id={id} src='/Pufino - Dreaming [FTUM Release].mp3' loop={true}></audio>
+    <audio id={id} src='/Pufino - Dreaming [FTUM Release].mp3' loop={true} autoPlay={true}></audio>
   );
 }
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    {/* <Audio /> */}
+    <Audio />
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
