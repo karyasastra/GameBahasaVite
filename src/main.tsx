@@ -13,7 +13,7 @@ function Audio(){
   });
 
   return (
-    <audio id={id} src={urlAudio} loop autoPlay></audio>
+    <audio id={id} src={urlAudio} loop={true} autoPlay={true}></audio>
   );
 }
 
