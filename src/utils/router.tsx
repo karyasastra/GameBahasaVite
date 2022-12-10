@@ -6,7 +6,7 @@ import {
   createHashRouter
 } from "react-router-dom";
 
-export const router = createHashRouter([
+export const router = createMemoryRouter([
   {
     path: '/',
     element: <App />,
