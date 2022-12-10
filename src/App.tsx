@@ -7,7 +7,7 @@ function App() {
   const [h, setH] = useState(window.innerHeight);
   const w = useMemo(() => h * ratio, [h]);
 
-  window.onresize = function(){ setH(window.innerHeight); }
+  // window.onresize = function(){ setH(window.innerHeight); }
 
   return (
     <div style={{

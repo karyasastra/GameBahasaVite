@@ -19,7 +19,7 @@ function Audio(){
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Audio />
+    {/* <Audio /> */}
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
