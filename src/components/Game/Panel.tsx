@@ -5,6 +5,8 @@ const Panel = styled.div`
   height: 100%;
   flex-shrink: 0;
   flex-grow: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 `;
 
 export default Panel;

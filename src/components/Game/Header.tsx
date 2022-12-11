@@ -5,7 +5,9 @@ import Popup from '../Global/Popup';
 import Button from '../Global/Button';
 import { useNavigate } from 'react-router-dom';
 
-export default function Header(){
+
+
+export default function Header({ gtype }:{gtype: 'Puisi' | 'Cerpen'}){
   const idTime = useId();
   const time = new Date().getTime();
   const [isPause, setPause] = useState(false);
@@ -24,9 +26,9 @@ export default function Header(){
 
   return (
     <>
-      { isPause && <Popup title='Membuat Puisi' close={() => setPause(false)}>
+      { isPause && <Popup title={`Membuat ${gtype}`} close={() => setPause(false)}>
         <p style={{ fontWeight: 'bold', color: 'white', textAlign: 'center', margin: 0, fontSize: '1.3rem' }}>
-          Ingin menghentikan permainan ini? Puisi yang kamu tulis akan terhapus, <i>lho</i>!</p>
+          Ingin menghentikan permainan ini? {gtype} yang kamu tulis akan terhapus, <i>lho</i>!</p>
         <div style={{ display: 'flex', marginTop: '1rem', justifyContent: 'space-between' }}>
           <Button onClick={() => navigate('/') }>Beranda</Button>
           <Button onClick={() => navigate(0) }>Ulangi</Button>

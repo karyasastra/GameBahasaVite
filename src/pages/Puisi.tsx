@@ -33,7 +33,7 @@ export default function Puisi(){
       background: '#683AC2',
       position: 'relative',
     }}>
-      <Header />
+      <Header gtype='Puisi' />
       <Container>
         <Panel>
           <p style={{ fontSize: '1.4rem', fontWeight:'bold', color: 'white', textAlign: 'center' }}>Buatlah puisi dari gambar dan petunjuk berikut!</p>

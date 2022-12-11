@@ -13,7 +13,7 @@ export default async function send(tipe: 'Puisi' | 'Cerpen', short: string, abst
         msg += '\n\n';
     }
     if(konten){
-        msg += `${tipe}\n\n`;
+        msg += `# ${tipe}\n\n`;
         msg += konten
     }
 
