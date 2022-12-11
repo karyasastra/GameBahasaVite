@@ -19,10 +19,10 @@ export const modulPuisi = [
         gambar: gambar2,
         clue: ['Desa', 'Masyarakat', 'Tentram'],
     },
-    // {
-    //     gambar: gambar3,
-    //     clue: ['Nenenk', 'Cucu', 'Menyayangi'],
-    // },
+    {
+        gambar: gambar3,
+        clue: ['Lingkungan', 'Kenangan', 'Binatang'],
+    },
     {
         gambar: gambar4,
         clue: ['Ayah', 'Anak', 'Kasih Sayang'],
@@ -33,7 +33,7 @@ export const modulPuisi = [
     },
     {
         gambar: gambar6,
-        clue: ['clue1', 'clue2', 'clue3'],
+        clue: ['Ibu', 'Aku', 'Waktu Kecil'],
     },
     {
         gambar: gambar7,
@@ -51,8 +51,8 @@ export const modulPuisi = [
         gambar: gambar10,
         clue: ['Ladang Hijau', 'Hewan', 'Asri'],
     },
-    // {
-    //     gambar: gambar11,
-    //     clue: ['clue1', 'clue2', 'clue3'],
-    // },
+    {
+        gambar: gambar11,
+        clue: ['Tamasya', 'Keluarga', 'Ayah'],
+    },
 ]
