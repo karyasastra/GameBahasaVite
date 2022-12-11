@@ -1,4 +1,4 @@
-export default function ButtonImage({ title, src }: any){
+export default function ButtonImage({ title, src, onClick }: any){
   return (
     <button style={{
       background: 'transparent',
@@ -7,8 +7,8 @@ export default function ButtonImage({ title, src }: any){
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: 'center'
-    }}>
+      alignItems: 'center',
+    }} onClick={ ()=>onClick() }>
       <img src={ src } style={{ width:'4rem' }}/>
       <span style={{ 
         fontFamily: "'Comic Neue', cursive",

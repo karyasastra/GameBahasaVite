@@ -19,8 +19,8 @@ export default function PopupPengaturan({ close }:TPopupProps){
   }
 
   return (
-    <Popup close={ close } title='Masukkan Email' withClose={true}>
-      <TextInput type='email' value={ email } onChange={(e) => setEmail(e.target.value)} />
+    <Popup close={ close } title='Integrasikan Formspree' withClose={true}>
+      <TextInput type='url' value={ email } onChange={(e) => setEmail(e.target.value)} />
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Button style={{
           marginTop: '1rem',

@@ -3,8 +3,10 @@ import ImgBerpuisi from '@/assets/Home/Berpuisi.png';
 import { TPopupProps } from "../Global/Popup";
 import ButtonImage from './ButtonImage';
 import ImgClose from '@/assets/Global/close.png';
+import { useNavigate } from 'react-router-dom';
 
 export default function PilihPermainan({ close=function(){} }:TPopupProps){
+  const navigate = useNavigate();
   return (
     <div style={{
       width: '100%',
@@ -32,8 +34,8 @@ export default function PilihPermainan({ close=function(){} }:TPopupProps){
         columnGap: '2rem',
         justifyContent: 'center'
       }}>
-        <ButtonImage src={ImgBercerita} title='Buat Cerita'></ButtonImage>
-        <ButtonImage src={ImgBerpuisi} title='Buat Puisi'></ButtonImage>
+        <ButtonImage src={ImgBercerita} title='Buat Cerita' onClick={() => navigate('/cerita')}></ButtonImage>
+        <ButtonImage src={ImgBerpuisi} title='Buat Puisi' onClick={() => navigate('/puisi')}></ButtonImage>
       </div>
     </div>
   );
