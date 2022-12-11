@@ -1,0 +1,21 @@
+{
+  "name": "Mari Bercerita",
+  "short_name": "Cerita",
+  "description": "",
+  "icons": [
+    {
+      "src": "/App Icon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/App Icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#875ED9",
+  "background_color": "#5328A8"
+}
