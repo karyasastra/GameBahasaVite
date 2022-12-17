@@ -2,7 +2,7 @@ import React, { useId } from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { router } from '@/utils/router'
-import urlAudio from '../public/Pufino - Dreaming [FTUM Release].mp3';
+import urlAudio from '@/assets/Pufino - Dreaming [FTUM Release].mp3';
 
 function Audio(){
   const id = useId();

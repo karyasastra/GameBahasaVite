@@ -9,6 +9,9 @@ const TextArea = styled.textarea`
     font-family: 'Comic Neue', cursive;
     font-size: 1.4rem;
     width: calc(100% - 2rem);
+    ${ props => 
+      /// @ts-ignore
+      props.css ?? {} }
 `;
 
 export default TextArea;
